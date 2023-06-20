@@ -10,7 +10,7 @@ public class rectangunloArea {
 		double ladoB;
 		double areaRectangulo;
 		Scanner leerLado = new Scanner(System.in); 
-		                                                                                                                  
+		
 		System.out.println("Dando las longitudes de los lados de un rectángulo se calculara el área del mismo");
 		System.out.println();
 		
