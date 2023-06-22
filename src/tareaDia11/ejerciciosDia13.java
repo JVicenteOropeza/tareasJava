@@ -67,9 +67,8 @@ public class ejerciciosDia13 {
 					}else {
 						//-16+32/4
 						exp1 = -a + b/c;
-						System.out.println("PRIMERO SE HACE b/c: "+b/c);
-						System.out.println("SEGUNDO  SE HACE LA SUMA O RESTA -a+b/c:"+ (-a)+" '+' "+b/c);
-						
+						System.out.println("PRIMERO SE HACE b/c: "+b+" / "+c);
+						System.out.println("SEGUNDO  SE HACE LA SUMA O RESTA -a+b/c: "+ (-a)+" '+' "+b/c);
 						System.out.println("La expresión: -a+b/c evaluada es: "+exp1);
 					}
 					break;
@@ -139,11 +138,12 @@ public class ejerciciosDia13 {
 					if(c == 0 || d == 0 || f == 0) {
 						System.out.println("el valor de 'c * d + e % f' no puede ser igual a 0. c,d y f tienen que ser diferentes a cero");
 					}else {
-						System.out.println("PRIMERO SE HACEN LAS OPERACIÓN DIVISIÓN: "+ (-b/c));
-						System.out.println("SEGUNDO SE HACEN LAS OPERACIÓN MULTIPICACIÓN: "+ (-b/c)*d);
-						System.out.println("TERCERO SE HACEN LAS OPERACIÓN MODULO: "+ (e%f));
-						System.out.println("CUARTO SE HACEN LAS OPERACIÓN RESTA: "+ a+((-b/c)*c));
-						System.out.println("QUINTO SE HACEN LAS OPERACIÓN SUMA: "+ (a+((-b/c)*c))+(e%f));
+						System.out.println("PRIMERO SE HACE LA OPERACIÓN DIVISIÓN: -b/c"+ (-b/c));
+						System.out.println("SEGUNDO SE HACE LA OPERACIÓN MULTIPICACIÓN: (-b/c)*d"+ (-b/c)*d);
+						System.out.println("TERCERO SE HACE LA OPERACIÓN MODULO, e%f: "+ (e%f));
+						System.out.println("CUARTO SE HACE LA OPERACIÓN RESTA, a + ((-b/c)*d): "+ a+((-b/c)*d));
+						System.out.println("QUINTO SE HACE LA OPERACIÓN SUMA: (a+((-b/c)*d))+(e%f): "+ ((a+((-b/c)*d))+(e%f)) );
+						
 						//17 - 18 /6 * 3 + 11 % 4
 						exp4 = a - b / c * d + e % f;
 						System.out.println("La expresión: a-b/c*d+e%f evaluada es: "+exp4);
