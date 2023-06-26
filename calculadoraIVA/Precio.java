@@ -81,9 +81,11 @@ public class Precio {
 	
 	public double DescuentoAplicado(double montoDelIVA) {
 		if(montoDelIVA > 50) {
+			//System.out.println("MAYOR");
 			this.descuento = this.descuentoMayor;
 		}else if(montoDelIVA <= 50) {
-			this.descuento = this.descuentoMayor;
+			//System.out.println("MENOR");
+			this.descuento = this.descuentoMenor;
 		}
 		return descuento;
 	}
